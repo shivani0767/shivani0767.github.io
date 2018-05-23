@@ -1,0 +1,33 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+    #navbar a{
+        float: left;
+        display: block;
+        font-size: 25pt;
+        color: black;
+        text-shadow: 1px 1px white;
+        padding: 14px 20px;
+        text-decoration: underline;
+    }
+
+    #navbar a:hover{
+        background-color: lightyellow;
+    }
+
+#title{
+    padding-top: 50px;
+    text-align: center;
+}
