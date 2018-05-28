@@ -1,15 +1,41 @@
 html, body{
-    margin: 0;
+    margin-left: -20px;
+    margin-right: -20px;
     padding: 0;
+}
+
+.container-fluid {
+
+    width: 100%;
+}
+
+.jumbotron-fluid{
+    margin-top: -30px;
+    
+    background-color: rgba(0,0,0,0)!important;
+    height: 10%;
 }
 
 .launch_page{
     font-family: 'Acme', sans-serif;
     text-shadow: 1px 1px white;
     color: black;
-    height: 100vh;
+    height: 140vh;
     text-align: center;
     background-attachment: fixed;
+}
+
+@media only screen and (min-width: 600px) {
+    .launch_page {
+        height: 70vh;
+    }
+}
+
+.paragraph {
+    margin-top: 100px;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 5vh;
 }
 
 #home{
@@ -21,16 +47,18 @@ html, body{
 }
 
     #welcome_label{
-        font-size: 60pt;
+        margin-top: -20px;
         text-shadow: 4px 4px black;
         color: white;
+        font-size: 75px;
+        font-size: 4em;
     }
 
     #portrait_reel{
         margin: auto;
         width: auto;
     }
-    
+   /* 
     #photo_one{
         float: left;
         padding-left: 20px;
@@ -41,13 +69,17 @@ html, body{
         float: right;
         padding-left: 20px;
         padding-right: 20px;
-    }
+    }*/
 
     .portrait{
         padding-top: 0 px;
-        height: 425px;
+        /*height: 425px;
         width: 600px;
-        border-radius: 5px;
+        border-radius: 5px;*/
+        max-width: 100%;
+        height: auto;
+        width: auto\9;
+        
     }
 
     #introduction_label{
