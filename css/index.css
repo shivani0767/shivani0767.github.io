@@ -25,11 +25,7 @@ html, body{
     background-attachment: fixed;
 }
 
-@media only screen and (min-width: 600px) {
-    .launch_page {
-        height: 70vh;
-    }
-}
+
 
 .paragraph {
     margin-top: 100px;
