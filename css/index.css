@@ -20,15 +20,20 @@ html, body{
     font-family: 'Acme', sans-serif;
     text-shadow: 1px 1px white;
     color: black;
-    height: 140vh;
-    text-align: center;
+    height: 100vh;
     background-attachment: fixed;
+}
+
+@media (min-width: 375px) {
+    .launch_page {
+        height: 130vh;
+    }
 }
 
 
 
 .paragraph {
-    margin-top: 100px;
+    margin-top: 110px;
     width: 50%;
     margin: 0 auto;
     padding-top: 5vh;
@@ -92,6 +97,7 @@ html, body{
     }
 
 #education{
+    
     padding-top: 20px;
     background-image: url(../images/arboretum.jpg);
     background-repeat: no-repeat;
@@ -99,6 +105,7 @@ html, body{
 }
 
     #education_label{
+        text-align: center;
         font-size: 60pt;
         color: white;
         text-shadow: 3px 3px black;
@@ -122,8 +129,18 @@ html, body{
     background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
 }
 
+.hobbiestitle {
+    text-align: center;
+}
+
+.hobbiescenter ul {
+    display: table;
+    margin: 0 auto;
+}
+
     #hobbies_label{
         font-size: 60pt;
+        text-align: center;
         color: black;
         text-shadow: 3px 3px white;
     }
@@ -161,9 +178,9 @@ html, body{
     }
 
     .hobbies_description_label{
-        text-align: left;
+        text-align: center;
         font-size: 25pt;
-        text-align: left;
+        
     }
 
 #contact{
@@ -185,25 +202,46 @@ html, body{
         font-size: 25pt;
     }
 
+
+
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+    
+   
+    
+}
+
+
+.center a {
+    margin: 10px;
+    
+}
+
+
+
     #contact_images{
         text-align: center;
+        margin: 0 auto;
+        left: 50%;
     }
 
     #linked_in{
         margin: auto;
-        float: left;
+
         padding-right: 20px;
     }
 
     #facebook{
         margin: auto;
-        float: left;
+        
         padding-right: 20px;
     }
 
     #instagram{
         margin: auto;
-        float: left;
+        
     }
 
 
