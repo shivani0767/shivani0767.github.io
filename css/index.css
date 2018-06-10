@@ -40,14 +40,14 @@ html, body{
     font-family: 'Acme', sans-serif;
     text-shadow: 1px 1px white;
     color: black;
-    height: 100vh;
+    height: 130vh;
     background-attachment: fixed;
     text-align: center;
 }
 
 @media (min-width: 375px) {
     .launch_page {
-        height: 110vh;
+        height: 150vh;
     }
 }
 
