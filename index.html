@@ -7,15 +7,30 @@
         
         <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
         
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-        
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+        
+        <!-- jQuery CDN -->
+        <script
+          src="http://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     </head>
     
-    <body class = "launch_page">
-        <div class="container-fluid">
+    <body class = "launch_page">    
+        <div id = "navbar">
+            <a href = "index.html">HOME</a>
+            <a href = "education.html">EDUCATION</a>
+            <a href = "hobbies.html">HOBBIES</a>
+            <a href = "index.html">CONTACT</a>
+        </div>
         <div class = "launch_page" id="home">
           <div class="jumbotron jumbotron-fluid">
 	       <h1 id = "welcome_label">WELCOME</h1>
@@ -42,32 +57,25 @@
         </div>
         
         <section class = "launch_page" id = "hobbies">
-        <div class="hobbiescenter">
-            <div class="hobbiestitle">
-              <a href = "hobbies.html" id = "hobbies_label" title = "Read More">HOBBIES</a>
-            </div>
-            <p class = "hobbies_description_label"> Some activities I like to partake in during me free time are:</p>
-            <div class="hobbieslist">
-                <ul class = "hobbies_description_label">
-                    <li>Playing the Piano</li>
-                    <li>Going to the Beach</li>
-                    <li>Spending Time in Nature</li>
-                    <li>Spending Time with Family/Friends</li>
-                </ul>
-            </div>
-        </div>
-            <div id = "hobby_photos">
-                <div class="row">
-                    <div class="col">
-                        <div id = "golf_div"><img src="images/golf.jpg" id = "golf"></div>
-                    </div>
-                    
-                    <div class="col">
-                        <div id = "ocean_div"><img src="images/beach.jpg" id = "ocean"></div>
-                    </div>
+            <a href="hobbies.html" id="hobbies_label" title="Read More">HOBBIES</a>
+            
+            <div class="container">
+                <div class="grid">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <img class="icon" src= "images/icons/golf.png">
+                            <h3>Playing Golf</h3>
+                        </div>
 
-                    <div class="col">
-                        <div id = "piano_div"><img src="images/piano.jpg" id = "piano"></div>
+                        <div class="col-md-4 col-sm-6">
+                            <img class="icon" src= "images/icons/beach.png">
+                            <h3>Going to the Beach</h3>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6">
+                            <img class="icon" src= "images/icons/piano.png">
+                            <h3>Playing the Piano</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -89,7 +97,6 @@
                 
             </div>
             </div>
-        </div>
         </div>
     </body>
 </html>
