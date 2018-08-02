@@ -1,35 +1,70 @@
 html, body{
     margin: 0;
-    padding: 0;
-    background-color: beige;
+    padding: 0;   
 }
 
-#navbar{
+#education_page{
+    background-color: rgba(125, 154, 193, 0.9);
+}
+
+.launch_page{
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px white;
+    color: black;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgba(161,187,213,0.4);
+    margin-bottom: 5px;
+}
+
+.navbar nav{
     overflow: hidden;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 100;
     z-index: 100;
-    margin: 0;
-    background-color: aliceblue;
+    margin: 0; 
 }
 
-    #navbar a{
-        float: left;
-        display: block;
-        font-size: 25pt;
-        color: black;
-        text-shadow: 1px 1px white;
-        padding: 14px 20px;
-        text-decoration: underline;
-    }
+.navbar .navbar-brand{
+    margin-top: auto;
+    font-size: 200%;
+    padding-right: 40px;
+    text-align: left;
+}
 
-    #navbar a:hover{
-        background-color: lightyellow;
-    }
+.nav-item{
+    font-size: 150%;
+    padding-right: 25px;
+    text-align: left;
+}
+
+.carousel_caption{
+    background-color: rgba(161,187,213,0.85);
+    text-shadow: 1px 1px white;
+    color: black;
+    font-size: 150%;
+}
+
+.jumbotron{
+    height: 100%;
+    background-image: url(../images/planner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.vertical-center{
+  min-height: 100%; 
+  display: flex;
+  align-items: center;
+}
 
 #title{
-    padding-top: 50px;
+    width: 100%;
     text-align: center;
 }
 
@@ -39,13 +74,46 @@ html, body{
 
 .school_header{
     text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: 1px 1px black;
+    color: white;
 }
 
-.education_table{
-    text-align: left;
-    margin: auto;
+.card-group{
+    font-size: 100%;
+    padding-bottom: 15px;
 }
 
-table, th, td {
-    border: 1px solid black;
+.btn{
+    white-space:normal !important;
+    word-wrap: break-word; 
+    text-decoration: underline;
 }
+
+.classTitle{
+    font-size: 125%;
+}
+
+.courses{
+    padding-top: 10vh;
+}
+
+.accordion{
+    background-color: rgba(161,187,213,0.4);
+}
+
+.card-text{
+    background-color: rgba(161,187,213,0.4);
+}
+
+.citation{
+    text-shadow: 1px 1px black;
+    color: white;
+    font-size: 100%;
+}
+
+.citation_link{
+    text-shadow: 0.5px 0.5px black;
+    text-decoration: underline;
+}
+

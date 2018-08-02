@@ -1,0 +1,94 @@
+.launch_page{
+    font-family:'Raleway', sans-serif;
+    text-shadow: 1px 1px white;
+    color: black;
+    margin-top: -15px;
+    background-image: url(../images/lightbulbs.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.navbar{
+    background-color: rgba(14,158,186,1);
+    margin-bottom: 20px;
+}
+
+.navbar nav{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100;
+    z-index: 100;
+    margin: 0; 
+}
+
+.navbar .navbar-brand{
+    margin-top: auto;
+    font-size: 200%;
+    padding-right: 40px;
+    text-align: left;
+}
+
+.nav-item{
+    font-size: 150%;
+    padding-right: 25px;
+    text-align: left;
+}
+
+.jumbotron{
+    width: 100%;
+    float: left;
+    background-color: rgba(0,0,0,0) !important;
+}
+
+#introduction_description_label{
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    font-size: 150%;
+    text-shadow: 1px 1px black;
+    color: white;
+    background: rgba(253, 114, 45, 0.75);
+}
+
+.rounded-circle{
+    margin-top: 50px;
+    float: center;
+    width: 85%; /*auto\9;*/
+    height: auto;
+}
+    
+.contact_label{
+    font-size: 250%;
+    color: white;
+    text-shadow: 3px 3px black;
+    float: center;
+}
+
+.email{
+    font-size: 150%;
+    text-shadow: 1px 1px black;
+    color: white;
+}
+
+.resume{
+    font-size: 150%;
+    text-shadow: 1px 1px black;
+    color: white;
+    text-decoration: underline;
+}
+
+#contact_images{
+    margin-top: 25px;
+}
+
+#contact_images a{
+    margin-top: 10px;
+    margin: 10px;  
+}
+
+    

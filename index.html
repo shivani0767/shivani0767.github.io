@@ -5,7 +5,7 @@
 		
         <link rel = "stylesheet" type = "text/css" href="css/index.css"> <!-- links index.css to index.html -->
         
-        <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -19,87 +19,43 @@
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
           crossorigin="anonymous"></script>
         
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     </head>
     
-    <body class = "launch_page">    
-        <div id = "navbar">
-            <a href = "index.html">HOME</a>
-            <a href = "education.html">EDUCATION</a>
-            <a href = "hobbies.html">HOBBIES</a>
-            <a href = "index.html">CONTACT</a>
-        </div>
-        <div class = "launch_page" id="home">
-          <div class="jumbotron jumbotron-fluid">
-	       <h1 id = "welcome_label">WELCOME</h1>
-           </div>    
-            <div class="row">
-                <div class="col">
-                    <div id="photo_one"><img class = "portrait" src = "images/fountain_portrait.jpg"></div>
-                 </div>
-                 <div class="col">
-                    <img class="portrait" src="images/la_portrait.JPG">
-                </div>
+    <body class="launch_page">    
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="biography.html">Shivani Bhushan</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">
+                            Home<span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="education.html">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbies.html">Hobbies</a>
+                    </li>
+                </ul>
             </div>
-                
-                <div class="paragraph">
-                    <h2 id="introduction_label">My name is Shivani Bhushan.</h2>
-                    <p id="introduction_description_label">I was born and raised in San Diego, CA. Now, I am a student at the University of California, Davis. This is my personal website which I programmed myself. Please enjoy exploring it to learn more about me.</p>
-                </div>
-             
-            </div>
+        </nav>
         
-        <div class = "launch_page" id = "education">
-            <a href = "education.html" id = "education_label" title = "Read More">EDUCATION</a>
-            <p id = "education_description_label"> I am a first-year student at the University of California, Davis majoring in computer science. In addition to my studies, I have joined the Davis Computer Science Club and participated in intramural sports. </p>
-        </div>
-        
-        <section class = "launch_page" id = "hobbies">
-            <a href="hobbies.html" id="hobbies_label" title="Read More">HOBBIES</a>
-            
-            <div class="container">
-                <div class="grid">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <img class="icon" src= "images/icons/golf.png">
-                            <h3>Playing Golf</h3>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <img class="icon" src= "images/icons/beach.png">
-                            <h3>Going to the Beach</h3>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6">
-                            <img class="icon" src= "images/icons/piano.png">
-                            <h3>Playing the Piano</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <div class = "launch_page" id = "contact">
-            <div class="center">
-            <h2 id = "contact_label">CONTACT</h2>
-            
-            <p class = "contact_description_label">Email: sbhushan@ucdavis.edu</p>
-            
-            <div id = "contact_images">
-                
-            <a href = "https://www.linkedin.com/in/shivani-bhushan-858982140/" target="_blank"><img src = "images/linkedIn.png"></a>
-                
-            <a href = "https://www.facebook.com/shivani0767" target="_blank"><img src = "images/facebook.png"></a>
-                
-            <a href = "https://www.instagram.com/shivani0767/" target="_blank"><img src = "images/instagram.png"></a>
-                
-            </div>
-            </div>
-        </div>
+        <div class="launch_page" id="home">
+          <div class="jumbotron">
+	          <h1 id="introduction_label">Welcome</h1>
+              <hr class="my-4">
+              
+              <p id="introduction_description_label">My name is Shivani Bhushan. I was born and raised in San Diego, CA. Currently, I am a student at UC Davis majoring in Computer Science. This is my personal website which I programmed myself. Please enjoy exploring it. <a class="btn btn-primary btn-md btn_text" href="biography.html" role="button">Learn More</a></p>
+              
+            <p class="lead"></p>
+          </div>
+        </div>  
     </body>
 </html>
 
-<a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-lg" id="facebook"></i></a>
+
  

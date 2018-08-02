@@ -2,260 +2,78 @@ html, body{
     padding: 0;
 }
 
-#navbar{
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    margin: 0;
-    background-color: aliceblue;
-}
-
-    #navbar a{
-        float: left;
-        display: block;
-        font-size: 25pt;
-        color: black;
-        text-shadow: 1px 1px white;
-        padding: 14px 20px;
-        text-decoration: underline;
-    }
-
-    #navbar a:hover{
-        background-color: lightyellow;
-    }
-
-.container-fluid {
-    width: 100%;
-}
-
-.jumbotron-fluid{
-    margin-top: 50px;
-    background-color: rgba(0,0,0,0)!important;
-    height: 10%;
-}
-
 .launch_page{
-    font-family: 'Acme', sans-serif;
+    font-family:'Raleway', sans-serif;
     text-shadow: 1px 1px white;
     color: black;
-    height: 130vh;
     background-attachment: fixed;
     text-align: center;
 }
 
 @media (min-width: 375px) {
     .launch_page {
-        height: 150vh;
+        height: 100vh;
     }
 }
 
-.paragraph {
-    margin-top: 110px;
-    width: 50%;
-    margin: 0 auto;
-    padding-top: 5vh;
+.navbar{
+    background-color: rgba(161,187,213,0.4);
+    margin-bottom: 20px;
 }
 
-#home{
-    padding-top: 20px;
-	/*background-color: #acdff7; 
-    /*background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");*/
-    background-color: #5e7a8c;
-    background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
+.navbar nav{
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100;
+    z-index: 100;
+    margin: 0; 
 }
 
-    #welcome_label{
-        margin-top: -20px;
-        text-shadow: 4px 4px black;
-        color: white;
-        font-size: 75px;
-        font-size: 4em;
-    }
+.navbar .navbar-brand{
+    margin-top: auto;
+    font-size: 200%;
+    padding-right: 40px;
+    text-align: left;
+}
 
-    #portrait_reel{
-        margin: auto;
-        width: auto;
-    }
-   /* 
-    #photo_one{
-        float: left;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+.nav-item{
+    font-size: 150%;
+    padding-right: 25px;
+    text-align: left;
+}
 
-    #photo_two{
-        float: right;
-        padding-left: 20px;
-        padding-right: 20px;
-    }*/
-
-    .portrait{
-        padding-top: 0 px;
-        /*height: 425px;
-        width: 600px;
-        border-radius: 5px;*/
-        max-width: 100%;
-        height: auto;
-        width: auto\9;
-        
-    }
-
-    #introduction_label{
-        font-size: 30pt;
-        text-shadow: 2px 2px black;
-        color: white;
-    }
-
-    #introduction_description_label{
-        font-size: 25pt;
-        text-align: center;
-        color: white;
-        text-shadow: 2px 2px black;
-    }
-
-#education{
-    padding-top: 20px;
-    background-image: url(../images/arboretum.jpg);
-    background-repeat: no-repeat;
+.jumbotron{
+    margin-top: -15px;
+    background-image: url(../images/coffee_laptop.jpg);
     background-size: cover;
+    background-position: center;
+    text-align: left;
+    height: 100vh;
 }
 
-    #education_label{
-        font-size: 60pt;
-        color: white;
-        text-shadow: 3px 3px black;
-    }
-
-    a education_label: hover{
-        background-color: yellow;
-    }
-
-    #education_description_label{
-        padding-top: 60vh; 
-        font-size: 25pt;
-        color: white;
-        text-shadow: 2px 2px black;
-        text-align: left;
-    }
-
-#hobbies{
-    padding-top: 20px;
-    background-color: #ffff87;
-    background-image: url("https://www.transparenttextures.com/patterns/diagonal-striped-brick.png");
+#introduction_label{
+    text-align: left;
+    font-size: 350%;
+    text-shadow: 2px 2px white;
+    color: black;
+    background: rgba(234, 236, 238, 0.75);
+    width: 45%;
 }
 
-    #hobbies_label{
-        font-size: 60pt;
-        text-align: center;
-        color: black;
-        text-shadow: 3px 3px white;
-    }
-
-    a:hover{
-        background-color: lightyellow;
-    }
-
-    .grid{
-        text-align: center; 
-    }
-
-    .icon{
-        height: 300px;
-    }
-
-    /*#hobby_photos{
-        text-align: center;
-    }
-
-    #golf{
-        margin: auto;
-        float: left;
-        height: 300px;
-        padding-left: 40px;
-        padding-right: 20px;
-    }
-
-    #ocean{
-        margin: auto;
-        float: left;
-        height: 300px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    #piano{
-        margin: auto;
-        float: left;
-        height: 300px;
-        padding-left: 20px;
-        padding-right: 40px;
-    }
-
-    .hobbies_description_label{
-        
-        font-size: 25pt;
-        
-    }*/
-
-#contact{
-    padding-top: 20px;
-    /*background-color: #f280ce;
-    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");*/
-    background-image: url(../images/pebbles.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+#introduction_description_label{
+    text-align: left;
+    font-size: 150%;
+    text-shadow: 1px 1px white;
+    color: black;
+    background: rgba(234, 236, 238, 0.75);
+    width: 45%;
 }
-    
-    #contact_label{
-        font-size: 60pt;
-        text-shadow: 3px 3px white;
-    }
 
-    .contact_description_label{
-        font-size: 25pt;
-    }
-
-
-
-
-.center {
-    margin: 0 auto;
-    text-align: center;
-    
-   
-    
+.btn_text{
+    text-shadow: 1px 1px black;
 }
 
 
-.center a {
-    margin: 10px;
-    
-}
-
-    #contact_images{
-        text-align: center;
-        margin: 0 auto;
-        left: 50%;
-    }
-
-    #linked_in{
-        margin: auto;
-
-        padding-right: 20px;
-    }
-
-    #facebook{
-        margin: auto;
-        
-        padding-right: 20px;
-    }
-
-    #instagram{
-        margin: auto;
-        
-    }
 
 
