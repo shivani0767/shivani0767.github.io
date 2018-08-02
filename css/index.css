@@ -7,6 +7,7 @@ html, body{
     text-shadow: 1px 1px white;
     color: black;
     background-attachment: fixed;
+    background-size: cover;
     text-align: center;
 }
 
@@ -33,21 +34,22 @@ html, body{
 .navbar .navbar-brand{
     margin-top: auto;
     font-size: 200%;
-    padding-right: 40px;
-    text-align: left;
+    text-align: right;
 }
 
 .nav-item{
     font-size: 150%;
-    padding-right: 25px;
-    text-align: left;
+    margin-left: 25px;
+    text-align: right;
 }
+
 
 .jumbotron{
     margin-top: -15px;
     background-image: url(../images/coffee_laptop.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     text-align: left;
     height: 100vh;
 }
