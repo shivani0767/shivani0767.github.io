@@ -1,14 +1,15 @@
 html, body{
     padding: 0;
+    overflow: hidden;
 }
 
 .launch_page{
     font-family:'Raleway', sans-serif;
-    text-shadow: 1px 1px white;
-    color: black;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 @media (min-width: 375px) {
@@ -18,8 +19,9 @@ html, body{
 }
 
 .navbar{
-    background-color: rgba(161,187,213,0.4);
-    margin-bottom: 20px;
+	margin-top: 0px;
+	background-image: linear-gradient(to right, rgb(84,64,57),  rgb(59,51,56));
+    margin-bottom: 10px;
 }
 
 .navbar nav{
@@ -33,49 +35,54 @@ html, body{
 
 .navbar .navbar-brand{
     margin-top: auto;
-    font-size: 200%;
+    font-size: 175%;
+	text-shadow: 1px 1px black;
     text-align: right;
 }
 
-.nav-item{
-    font-size: 150%;
+.navbar .nav-link{
+	text-shadow: 1px 1px black;
+	font-size: 150%;
     margin-left: 25px;
     text-align: right;
 }
 
-
 .jumbotron{
     margin-top: -15px;
-    background-image: url(../images/coffee_laptop.jpg);
+    text-align: left;
+    position: fixed;
+    background: 
+      linear-gradient(
+        rgba(0,0,0,0),
+        rgba(216,182,137,0.2)
+      ), url(../images/landing_background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    text-align: left;
+    color: white !important;
+    width: 100%;
     height: 100vh;
 }
 
-#introduction_label{
+.intro{
+    position: absolute;
+    bottom: 15%;
+    right: 15%;
+}
+
+#name_label{
+	border-bottom: 2px solid currentColor;
     text-align: left;
-    font-size: 350%;
+    font-size: 400%;
+    text-shadow: 3px 3px white;
+	color: rgb(59,51,56);
+    width: 100%;
+}
+
+#intro_text{
+    text-align: left;
+    font-size: 175%;
     text-shadow: 2px 2px white;
-    color: black;
-    background: rgba(234, 236, 238, 0.75);
-    width: 45%;
+    color: rgb(59,51,56);
+    width: 100%;
 }
-
-#introduction_description_label{
-    text-align: left;
-    font-size: 150%;
-    text-shadow: 1px 1px white;
-    color: black;
-    background: rgba(234, 236, 238, 0.75);
-    width: 45%;
-}
-
-.btn_text{
-    text-shadow: 1px 1px black;
-}
-
-
-
-
