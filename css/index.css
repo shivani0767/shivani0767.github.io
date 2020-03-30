@@ -49,11 +49,11 @@ html, body{
 
 @media only screen and (max-width: 767px) {
 	.navbar .navbar-brand{
-		font-size: 100%;
+		font-size: 115%;
 	}
 	
 	.navbar .nav-link{
-		font-size: 105%;
+		font-size: 115%;
 	}
 }
 
@@ -80,13 +80,6 @@ html, body{
     right: 15%;
 }
 
-@media only screen and (max-width: 767px) {
-  .intro{
-  	  bottom: 10%;
-      right: 5%;
-  }
-}
-
 #name_label{
 	border-bottom: 2px solid currentColor;
     text-align: left;
@@ -98,7 +91,7 @@ html, body{
 
 @media only screen and (max-width: 767px) {
   #name_label{
-  	  font-size: 150%;
+  	  font-size: 175%;
   }
 }
 
@@ -112,6 +105,6 @@ html, body{
 
 @media only screen and (max-width: 767px) {
   #intro_text{
-  	  font-size: 100%;
+  	  font-size: 125%;
   }
 }
