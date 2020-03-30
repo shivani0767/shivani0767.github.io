@@ -84,7 +84,7 @@ html, body{
 	border-bottom: 2px solid currentColor;
     text-align: left;
     font-size: 350%;
-    text-shadow: 3px 3px white;
+    text-shadow: 1px 1px white;
 	color: rgb(59,51,56);
     width: 100%;
 }
@@ -98,7 +98,7 @@ html, body{
 #intro_text{
     text-align: left;
     font-size: 175%;
-    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px white;
     color: rgb(59,51,56);
     width: 100%;
 }
