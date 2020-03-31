@@ -12,6 +12,9 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         
@@ -23,21 +26,21 @@
         
     </head>
     
-    <body class="launch_page">  
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="biography.html">Shivani Bhushan</a>
+    <body class="launch_page" data-spy="scroll" data-target=".navbar" data-offset="75">  
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a class="navbar-brand" href="#launch_page">Shivani Bhushan</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">
-                            Home<span class="sr-only">(current)</span>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about_me">
+                            About Me<span class="sr-only"></span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="education.html">Education</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="hobbies.html">Hobbies</a>
@@ -46,15 +49,37 @@
             </div>
         </nav>
         
-        <div class="launch_page" id="home">
-          <div class="jumbotron">
+        <div class="container-fluid" id="launch_page">
               <div class="intro">
                   <h4 id="intro_text">Hi, my name is</h4>
 				  <h1 id="name_label">Shivani Bhushan.</h1>
                   <h4 id="intro_text">Welcome to my personal website. </h4>
               </div>
-          </div>
-        </div>  
+        </div>
+		
+		<div class="container-fluid" id="about_me">
+        	<div class="row">
+            	<div class="col-lg-6 col-md-12 col-sm-12 text-center">
+					<img src="images/profile_pic.jpg" class="rounded-circle" alt="Profile Picture">
+				</div>
+				<div class="col">
+					<h1 id="about_me_title">About Me</h1>
+					<ul class="list-unstyled" id="about_me_text">
+					  <li>I'm currently an undergraduate student at UC Davis studying computer science. I will be graduating in Dec. 2020.</li>
+					  <li>I was a software developer intern at Amazon during summer 2019, and I will be returning to the same team to intern again during summer 2020.</li>
+					  <li>I served for a year as Treasurer of the Davis Computer Science Club at UC Davis, and I was promoted to Co-Vice President for the following school year.</li>
+					  <li>I've participated in two Hackathons, one of which I was chosen as a winner.</li>
+					  <li>Some activities I enjoy in my free time include running, golfing, playing piano, cooking, and traveling.</li>
+					</ul>
+               </div>    
+           	</div>
+		</div>
+		
+<!--
+		<div class="container-fluid" id="education">
+			<p>HI THERE</p>
+		</div>
+-->
     </body>
 </html>
 

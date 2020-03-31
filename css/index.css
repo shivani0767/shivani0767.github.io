@@ -1,23 +1,9 @@
 html, body{
     padding: 0;
-    overflow: hidden;
+	scroll-behavior: smooth;
 }
 
-.launch_page{
-    font-family:'Raleway', sans-serif;
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-@media (min-width: 375px) {
-    .launch_page {
-        height: 100vh;
-    }
-}
-
+/*NAVBAR PAGE STYLING:*/
 .navbar{
 	margin-top: 0px;
 	background-image: linear-gradient(to right, rgb(84,64,57),  rgb(59,51,56));
@@ -57,19 +43,21 @@ html, body{
 	}
 }
 
-.jumbotron{
-    margin-top: -15px;
-    text-align: left;
-    position: fixed;
+/*LAUNCH PAGE STYLING:*/
+#launch_page{
+    font-family:'Raleway', sans-serif;
+	text-align: left;
     background: 
       linear-gradient(
         rgba(0,0,0,0),
-        rgba(216,182,137,0.2)
+        rgba(216,182,137,0.15)
       ), url(../images/landing_background.jpg);
     background-size: cover;
     background-position: center;
+	background-attachment: fixed;
     background-repeat: no-repeat;
     color: white !important;
+	padding-top: 75px;
     width: 100%;
     height: 100vh;
 }
@@ -107,4 +95,86 @@ html, body{
   #intro_text{
   	  font-size: 125%;
   }
+}
+
+/*ABOUT ME PAGE STYLING:*/
+#about_me{
+	padding-top: 75px;
+	width: 100%;
+	height: 100vh;
+	background: 
+      linear-gradient(
+        rgba(0,0,0,0),
+        rgba(175,185,224,0.15)
+      ), url(../images/grey-leather.png);
+	background-attachment: fixed;
+}
+
+@media only screen and (max-width: 767px) {
+  #about_me{
+  	  height: 125vh;
+  }
+}
+
+.rounded-circle{
+    margin-top: 10%;
+    float: center;
+    width: 70%;
+    height: auto;
+	border: 2px solid #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .rounded-circle{
+  	  margin-top: 0%;
+  }
+}
+
+#about_me_title{
+	font-family:'Raleway', sans-serif;
+	font-size: 350%;
+	color: rgb(59,51,56);
+    text-shadow: 1px 1px white;
+	margin-top: 5%;
+	text-align: center;
+	width: 75%;
+}
+
+@media only screen and (max-width: 767px) {
+  #about_me_title{
+  	  font-size: 175%;
+	  width: 100%;
+  }
+}
+
+#about_me_text{
+	margin-top: 20px;
+}
+
+.list-unstyled li{
+	color: rgb(59,51,56);
+	padding-bottom: 20px;
+	width: 85%;
+	font-family:'Raleway', sans-serif;
+	font-size: 130%;
+	text-shadow: 1px 1px white;
+}
+
+@media only screen and (max-width: 767px) {
+  .list-unstyled li{
+  	  font-size: 100%;
+	  width: 100%;
+	  padding-left: 5%;
+	  padding-right: 5%; 
+	  padding-bottom: 15px;
+  }
+}
+
+/*EDUCATION PAGE STYLING:*/
+#education{
+	padding-top: 75px;
+	width: 100%;
+	height: 100vh;
+	background-color: aquamarine;
+	background-attachment: fixed;
 }
