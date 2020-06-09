@@ -190,9 +190,9 @@ html, body{
 }
 
 .carousel{
-	width: 76%;
-	margin-left: 12%;
-	margin-right: 12%;
+	width: 84%;
+	margin-left: 8%;
+	margin-right: 8%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -233,13 +233,15 @@ html, body{
 .list-group-item{
 	font-family:'Raleway', sans-serif;
 	font-size: 110%;
+	padding: 0.50rem 1rem !important;
 }
 
 .badge-pill {
 	font-family:'Raleway', sans-serif;
 	font-size: 110%;
-	text-shadow: 1px 1px black;
+	text-shadow: 0.75px 0.75px black;
 	margin-left: 10px;
+	float: right;
 }
 
 @media only screen and (max-width: 767px) {
@@ -249,5 +251,6 @@ html, body{
 
   .badge-pill{
 	font-size: 100%;
+	margin-top: 5px;
   }
 }
